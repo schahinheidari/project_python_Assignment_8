@@ -1,10 +1,14 @@
 import random
 
-options = ['Rock', 'Paper', 'Scissor']
+options = [1, 2, 3]
 scores = {'user':0, 'computer':0}
 for i in range(10):
     computer_choice = random.choice(options)
+<<<<<<< HEAD
     print("Computer select: ",computer_choice)
+=======
+    #print("Computer select: ",computer_choice)
+>>>>>>> origin/feature/b-feature
     print("ROCK,PAPER,SCISSOR GAME")
     print("1 for Rock","2 for Paper","3 for Scissor",end="\n")
     user_choice = int(input('play the game and select your option: '))
